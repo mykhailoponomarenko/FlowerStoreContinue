@@ -17,7 +17,7 @@ public class Order {
         this.items = new ArrayList<>();
     }
 
-    public void AddItem(Item item) {
+    public void addItem(Item item) {
         items.add(item);
     }
 

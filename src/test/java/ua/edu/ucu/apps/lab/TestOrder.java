@@ -19,7 +19,7 @@ public class TestOrder {
     }
 
     @Test
-    void DHLDeliveryTest() {
+    void dhlDeliveryTest() {
         DHLDeliveryStrategy strategy = new DHLDeliveryStrategy();
         ArrayList<Item> list = new ArrayList<>();
         list.add(new Item());
@@ -27,17 +27,19 @@ public class TestOrder {
     }
 
     @Test
-    void CardPaymentTest() {
+    void cardPaymentTest() {
         CreditCardPaymentStrategy strategy = new CreditCardPaymentStrategy();
         double price = 20;
-        Assertions.assertEquals(strategy.pay(price), 30);
+        double result = 30;
+        Assertions.assertEquals(strategy.pay(price), result);
     }
 
     @Test
-    void PayPalPaymentTest() {
+    void payPalPaymentTest() {
         PayPalPaymentStrategy strategy = new PayPalPaymentStrategy();
         double price = 20;
-        Assertions.assertEquals(strategy.pay(price), 10);
+        double result = 10;
+        Assertions.assertEquals(strategy.pay(price), result);
     }
     
 }

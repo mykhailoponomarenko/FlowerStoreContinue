@@ -4,6 +4,6 @@ import ua.edu.ucu.apps.lab.flower.Item;
 import java.util.ArrayList;
 
 public interface Delivery {
-    public String deliver(ArrayList<Item> items);
+    String deliver(ArrayList<Item> items);
 
 }
