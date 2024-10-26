@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps.lab7.flower;
+package ua.edu.ucu.apps.lab.flower;
 
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps.lab7.controller;
+package ua.edu.ucu.apps.lab.controller;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ua.edu.ucu.apps.lab7.flower.Flower;
-import ua.edu.ucu.apps.lab7.flower.FlowerColor;
-import ua.edu.ucu.apps.lab7.flower.FlowerType;
+import ua.edu.ucu.apps.lab.flower.Flower;
+import ua.edu.ucu.apps.lab.flower.FlowerColor;
+import ua.edu.ucu.apps.lab.flower.FlowerType;
 
 @RestController
 @RequestMapping("/api/v1")

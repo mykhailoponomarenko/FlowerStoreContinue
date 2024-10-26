@@ -1,14 +1,14 @@
-package ua.edu.ucu.apps.lab7;
+package ua.edu.ucu.apps.lab;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 
-import ua.edu.ucu.apps.lab7.delivery.DHLDeliveryStrategy;
-import ua.edu.ucu.apps.lab7.delivery.PostDeliveryStrategy;
-import ua.edu.ucu.apps.lab7.flower.Item;
-import ua.edu.ucu.apps.lab7.payment.CreditCardPaymentStrategy;
-import ua.edu.ucu.apps.lab7.payment.PayPalPaymentStrategy;
+import ua.edu.ucu.apps.lab.delivery.DHLDeliveryStrategy;
+import ua.edu.ucu.apps.lab.delivery.PostDeliveryStrategy;
+import ua.edu.ucu.apps.lab.flower.Item;
+import ua.edu.ucu.apps.lab.payment.CreditCardPaymentStrategy;
+import ua.edu.ucu.apps.lab.payment.PayPalPaymentStrategy;
 public class TestOrder {
     @Test
     void postDeliveryTest() {

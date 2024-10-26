@@ -1,11 +1,11 @@
-package ua.edu.ucu.apps.lab7.flower;
+package ua.edu.ucu.apps.lab.flower;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import lombok.Getter;
 import lombok.Setter;
-import ua.edu.ucu.apps.lab7.payment.Payment;
+import ua.edu.ucu.apps.lab.payment.Payment;
 
 @Getter
 @Setter
