@@ -5,7 +5,7 @@ public class CreditCardPaymentStrategy implements Payment {
     @Override
     public double pay(double price) {
         System.out.println("Credit card payment");
-        int num = 10;
+        final int num = 10;
         return price + num;
     }
 

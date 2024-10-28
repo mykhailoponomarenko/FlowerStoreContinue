@@ -4,7 +4,7 @@ public class PayPalPaymentStrategy implements Payment {
     @Override
     public double pay(double price) {
         System.out.println("PayPal payment");
-        int num = 10;
+        final int num = 10;
         return price - num;
     }
     

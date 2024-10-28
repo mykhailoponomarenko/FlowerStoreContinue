@@ -29,16 +29,16 @@ public class TestOrder {
     @Test
     void cardPaymentTest() {
         CreditCardPaymentStrategy strategy = new CreditCardPaymentStrategy();
-        double price = 20;
-        double result = 30;
+        final double price = 20;
+        final double result = 30;
         Assertions.assertEquals(strategy.pay(price), result);
     }
 
     @Test
     void payPalPaymentTest() {
         PayPalPaymentStrategy strategy = new PayPalPaymentStrategy();
-        double price = 20;
-        double result = 10;
+        final double price = 20;
+        final double result = 10;
         Assertions.assertEquals(strategy.pay(price), result);
     }
     
