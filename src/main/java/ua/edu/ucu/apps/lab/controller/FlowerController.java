@@ -17,10 +17,10 @@ public class FlowerController {
     @GetMapping("/flowers")
     
     public List<Flower> getFlowers() {
-        final int price = 10;
-        final int length = 0;
+        final int PRICE = 10;
+        final int LENGTH = 0;
         return List.of(
-            new Flower(FlowerColor.RED, price, length, FlowerType.CHAMOMILE)
+            new Flower(FlowerColor.RED, PRICE, LENGTH, FlowerType.CHAMOMILE)
         );
 
     }
